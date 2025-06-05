@@ -16,8 +16,12 @@
 		AFC26CFC75DD42A72679FC98991CCCD4 /* VollmedUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D96B5A98DF26177D1C692AF2FA15D5 /* VollmedUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFCBE325ECA6AB20CAB9B5BE27590C20 /* Pods-VollmedUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9493A79441E11DF480DFC0B1FB07688B /* Pods-VollmedUI_Example-dummy.m */; };
 		B85CA2636BB74D27FA3BD1FD5FE09048 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		FBF033082DD40C4C00FD7119 /* VollMedTextStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF033062DD40C4C00FD7119 /* VollMedTextStylesUI.swift */; };
-		FBF033092DD40C4C00FD7119 /* VollMedTextStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF033062DD40C4C00FD7119 /* VollMedTextStylesUI.swift */; };
+		FB6A515C2DF2564900173DAD /* VollmedButtonStyleUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A515B2DF2564900173DAD /* VollmedButtonStyleUI.swift */; };
+		FB6A515D2DF2564900173DAD /* VollmedButtonStyleUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A515B2DF2564900173DAD /* VollmedButtonStyleUI.swift */; };
+		FBF033182DD6A50E00FD7119 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = FBF033122DD6A50E00FD7119 /* .gitkeep */; };
+		FBF0331A2DD6A50E00FD7119 /* VollMedTextStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF033142DD6A50E00FD7119 /* VollMedTextStylesUI.swift */; };
+		FBF0331B2DD6A50E00FD7119 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = FBF033122DD6A50E00FD7119 /* .gitkeep */; };
+		FBF0331D2DD6A50E00FD7119 /* VollMedTextStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF033142DD6A50E00FD7119 /* VollMedTextStylesUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +73,9 @@
 		E756F03D0A0B05E2BEC6383429CBE6C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E8E7DB0385672E99EE78DCAC925D27AF /* Pods-VollmedUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VollmedUI_Tests-dummy.m"; sourceTree = "<group>"; };
 		EBDEA2DC32FBC8EFAE2E9624D417FA8E /* Pods-VollmedUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VollmedUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FBF033062DD40C4C00FD7119 /* VollMedTextStylesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollMedTextStylesUI.swift; sourceTree = "<group>"; };
+		FB6A515B2DF2564900173DAD /* VollmedButtonStyleUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollmedButtonStyleUI.swift; sourceTree = "<group>"; };
+		FBF033122DD6A50E00FD7119 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		FBF033142DD6A50E00FD7119 /* VollMedTextStylesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollMedTextStylesUI.swift; sourceTree = "<group>"; };
 		FC64EF06D1794C6FCBE24B1AA28278AE /* VollmedUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VollmedUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -158,7 +164,8 @@
 		5E2011036E880495F5D52FAE5ECCBE81 /* VollmedUI */ = {
 			isa = PBXGroup;
 			children = (
-				FBF033072DD40C4C00FD7119 /* Styles */,
+				FBF033132DD6A50E00FD7119 /* Assets */,
+				FBF033172DD6A50E00FD7119 /* Classes */,
 				04841D259AEE1E60B35737CE51F2D802 /* Pod */,
 				FA667C8EE404414FCB1F2438FB6E6F8E /* Support Files */,
 			);
@@ -224,12 +231,29 @@
 			path = "Example/Pods/Target Support Files/VollmedUI";
 			sourceTree = "<group>";
 		};
-		FBF033072DD40C4C00FD7119 /* Styles */ = {
+		FBF033132DD6A50E00FD7119 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				FBF033062DD40C4C00FD7119 /* VollMedTextStylesUI.swift */,
+				FBF033122DD6A50E00FD7119 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FBF033152DD6A50E00FD7119 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				FBF033142DD6A50E00FD7119 /* VollMedTextStylesUI.swift */,
+				FB6A515B2DF2564900173DAD /* VollmedButtonStyleUI.swift */,
 			);
 			path = Styles;
+			sourceTree = "<group>";
+		};
+		FBF033172DD6A50E00FD7119 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FBF033152DD6A50E00FD7119 /* Styles */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +384,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF033182DD6A50E00FD7119 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +392,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF0331B2DD6A50E00FD7119 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +410,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBF033082DD40C4C00FD7119 /* VollMedTextStylesUI.swift in Sources */,
+				FBF0331D2DD6A50E00FD7119 /* VollMedTextStylesUI.swift in Sources */,
+				FB6A515C2DF2564900173DAD /* VollmedButtonStyleUI.swift in Sources */,
 				AFCBE325ECA6AB20CAB9B5BE27590C20 /* Pods-VollmedUI_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,7 +420,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBF033092DD40C4C00FD7119 /* VollMedTextStylesUI.swift in Sources */,
+				FBF0331A2DD6A50E00FD7119 /* VollMedTextStylesUI.swift in Sources */,
+				FB6A515D2DF2564900173DAD /* VollmedButtonStyleUI.swift in Sources */,
 				A8BB6C2CFA4713FE53E6075B2A324DCE /* VollmedUI-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
